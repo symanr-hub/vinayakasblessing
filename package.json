@@ -2,7 +2,9 @@
   "name": "agro-ai-assistant",
   "version": "1.0.0",
   "description": "Production-Ready AI-Powered Agriculture Crop Advisory Assistant",
+  "packageManager": "pnpm@9.15.4",
   "scripts": {
+    "build": "cd client && npm install && npm run build",
     "server": "pnpm --filter agro-ai-assistant-server run dev",
     "client": "pnpm --filter agro-ai-assistant-client run dev",
     "build:client": "pnpm --filter agro-ai-assistant-client run build",
@@ -11,4 +13,3 @@
   "devDependencies": {},
   "private": true
 }
-
