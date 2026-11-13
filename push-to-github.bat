@@ -6,7 +6,7 @@ set "PATH=C:\Users\Syman\.cache\codex-runtimes\codex-primary-runtime\dependencie
 
 echo ======================================================================
 echo   AgroAI - Pushing Project to GitHub
-echo   Target: https://github.com/symanr8-afk/vinayakasblessing.git
+echo   Target: https://github.com/symanr-hub/vinayakasblessing.git
 echo ======================================================================
 echo.
 echo If a GitHub sign-in window or browser opens, please click 'Authorize'
