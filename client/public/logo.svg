@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="agroGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a753b" />
+      <stop offset="100%" stop-color="#1a3d24" />
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5cae6d" />
+      <stop offset="100%" stop-color="#38924b" />
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047" />
+      <stop offset="100%" stop-color="#eab308" />
+    </linearGradient>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="50" cy="50" r="46" fill="url(#agroGrad)" />
+  <!-- Sun / Horizon -->
+  <circle cx="50" cy="38" r="16" fill="url(#sunGrad)" opacity="0.9" />
+  <!-- Sprout Stem & Leaves -->
+  <path d="M50 78 C50 55 50 42 50 34" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" fill="none" />
+  <!-- Left Leaf -->
+  <path d="M50 48 C32 46 26 34 32 26 C42 26 48 38 50 48 Z" fill="url(#leafGrad)" stroke="#ffffff" stroke-width="1.5" />
+  <!-- Right Leaf -->
+  <path d="M50 42 C68 40 74 28 68 20 C58 20 52 32 50 42 Z" fill="#8ecc99" stroke="#ffffff" stroke-width="1.5" />
+  <!-- Furrow lines (Soil Ground) -->
+  <path d="M22 75 Q50 68 78 75" stroke="#bbe4c2" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8" />
+  <path d="M18 82 Q50 76 82 82" stroke="#8ecc99" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6" />
+</svg>
+

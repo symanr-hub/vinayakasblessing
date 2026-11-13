@@ -1,0 +1,4 @@
+allowBuilds:
+  protobufjs: set this to true or false
+minimumReleaseAgeExclude:
+  - '@google/genai@3.3.0'
